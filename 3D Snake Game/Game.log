@@ -1,0 +1,29 @@
+﻿Build started 07/03/2014 11:43:43.
+     1>Project "C:\Users\User\Documents\ICP-3036\Game\Game.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Touching "Release\Game.unsuccessfulbuild".
+       ClCompile:
+         All outputs are up-to-date.
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\User\Documents\ICP-3036\Game\Release\Game.exe" /INCREMENTAL:NO /NOLOGO SOIL.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release\Game.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\User\Documents\ICP-3036\Game\Release\Game.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\User\Documents\ICP-3036\Game\Release\Game.lib" /MACHINE:X86 Release\game.obj
+         Release\Scene.obj
+         Release\WindowingSystem.obj
+     1>SOIL.lib(SOIL.obj) : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/OPT:ICF' specification
+     1>LINK : warning LNK4098: defaultlib 'MSVCRTD' conflicts with use of other libs; use /NODEFAULTLIB:library
+         Generating code
+         Finished generating code
+     1>SOIL.lib(image_DXT.obj) : warning LNK4204: 'C:\Users\User\Documents\ICP-3036\Game\Release\vc100.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>SOIL.lib(image_helper.obj) : warning LNK4204: 'C:\Users\User\Documents\ICP-3036\Game\Release\vc100.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>SOIL.lib(SOIL.obj) : warning LNK4204: 'C:\Users\User\Documents\ICP-3036\Game\Release\vc100.pdb' is missing debugging information for referencing module; linking object as if no debug info
+     1>SOIL.lib(stb_image_aug.obj) : warning LNK4204: 'C:\Users\User\Documents\ICP-3036\Game\Release\vc100.pdb' is missing debugging information for referencing module; linking object as if no debug info
+         Game.vcxproj -> C:\Users\User\Documents\ICP-3036\Game\Release\Game.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\User\Documents\ICP-3036\Game\Release\Game.exe;#1" /manifest Release\Game.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Release\Game.unsuccessfulbuild".
+         Touching "Release\Game.lastbuildstate".
+     1>Done Building Project "C:\Users\User\Documents\ICP-3036\Game\Game.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.16
